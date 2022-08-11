@@ -54,7 +54,7 @@ a{
 .logo h3 span{
   color: #31de79;
 }
-.navItem.active, .navItems.active{
+.navItem.active, .navItems.active, nav ul li a:hover{
   color: #31de79;
 }
 nav ul {
@@ -105,6 +105,7 @@ nav ul li a {
   color: #333;
   position: relative;
   padding-bottom: 4px;
+  transition: .3s all ease-in-out;
 }
 nav ul li a::before {
   content: '';
